@@ -1,0 +1,18 @@
+[
+  {
+    "sku": "DEMO01",
+    "name": "This pretty plant",
+    "description": "look at this pretty plant",
+    "image": "https://media.istockphoto.com/photos/monstera-in-a-pot-isolated-on-white-background-close-up-of-tropical-picture-id1278906674?b=1&k=20&m=1278906674&s=170667a&w=0&h=PRsEw9KpsggCTUEqH_DqgtEKRt884wAGfQCQTeS8xBY=",
+    "amount": 1000,
+    "currency": "USD"
+  },
+  {
+    "sku": "DEMO02",
+    "name": "Adventure Mug",
+    "description": "We are going on an adventure",
+    "image": "https://media.istockphoto.com/photos/pov-image-of-couple-holding-enamel-cups-on-mountain-peak-picture-id1063391498?b=1&k=20&m=1063391498&s=170667a&w=0&h=dZtLd7Gm6NCYg-_0cmIe1rnfiy4PbPz5hcgHcJBXeOM=",
+    "amount": 1500,
+    "currency": "USD"
+  }
+]

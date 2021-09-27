@@ -1,0 +1,7 @@
+{
+  "name": "stripe-checkout-netlify-serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kojusola <adeola5678@gmail.com>",
+  "license": "MIT"
+}
