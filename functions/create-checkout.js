@@ -12,7 +12,7 @@ exports.handler = async (event) => {
     shipping_address_collection: {
       allowed_countries: ["US", "CA"],
     },
-    success_url: `${process.env.URL}/success.html`,
+    success_url: `${process.env.URL}/success.html?sessionId={CHECKOUT_SESSION_ID}`,
     cancel_url: process.env.URL,
     line_items: [
       {

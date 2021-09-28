@@ -16,6 +16,7 @@ export async function handleFormSubmission(event) {
     body: JSON.stringify(data),
   }).then((res) => res.json());
   const stripe = Stripe(response.publishableKey);
+  console.log(stripe);
   const { error } = await stripe.redirectToCheckout({
     sessionId: response.sessionId,
   });
