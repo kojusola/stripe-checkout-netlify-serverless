@@ -11,5 +11,5 @@ export async function handleSendMail() {
     },
     body: JSON.stringify(data),
   }).then((res) => res.json());
-  console.log(response);
+  // console.log(response);
 }
