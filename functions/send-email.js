@@ -8,6 +8,9 @@ exports.handler = async (event) => {
 
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
+    tls: {
+      ciphers: "SSLv3",
+    },
     auth: {
       user: process.env.EMAIL_NAME,
       pass: process.env.EMAIL_PASS,
@@ -133,11 +136,12 @@ exports.handler = async (event) => {
     </body>
     </html>`, // html body
   };
-  await send(info);
+  errorMessage = await send(info);
 
   return {
     statusCode: 200,
     body: JSON.stringify({
+      errorMessage: errorMessage,
       customer: customer,
     }),
   };
